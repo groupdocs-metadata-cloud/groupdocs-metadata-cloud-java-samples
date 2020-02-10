@@ -17,7 +17,7 @@ import examples.Common;
 /**
  * This example demonstrates how to extract metadata by match property name exact word (ignorecase).
  */
-public class ExtractMetadataByPropertyNameMatchWholeWord {
+public class ExtractMetadataByPropertyNameMatchExactPhrase {
 
 	public static void main(String[] args) {
 
@@ -29,7 +29,7 @@ public class ExtractMetadataByPropertyNameMatchWholeWord {
 			NameOptions nameOptions = new NameOptions();
 			nameOptions.setValue("MimeType");
 			MatchOptions matchOptions = new MatchOptions();
-			matchOptions.setWholeWord(true);
+			matchOptions.setExactPhrase(true);
 			nameOptions.setMatchOptions(matchOptions);
 			searchCriteria.setNameOptions(nameOptions);
 			options.setSearchCriteria(searchCriteria);

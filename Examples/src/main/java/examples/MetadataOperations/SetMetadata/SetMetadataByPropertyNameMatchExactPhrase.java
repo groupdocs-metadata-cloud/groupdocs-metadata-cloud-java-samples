@@ -18,7 +18,7 @@ import examples.Common;
 /**
  * This example demonstrates how to set metadata by match property name exact word (ignorecase).
  */
-public class SetMetadataByPropertyNameMatchWholeWord {
+public class SetMetadataByPropertyNameMatchExactPhrase {
 
 	public static void main(String[] args) {
 
@@ -32,7 +32,7 @@ public class SetMetadataByPropertyNameMatchWholeWord {
 			NameOptions nameOptions = new NameOptions();
 			nameOptions.setValue("NameOfApplication");
 			MatchOptions matchOptions = new MatchOptions();
-			matchOptions.setWholeWord(true);
+			matchOptions.setExactPhrase(true);
 			nameOptions.setMatchOptions(matchOptions);
 			searchCriteria.setNameOptions(nameOptions);
 			property.setSearchCriteria(searchCriteria);

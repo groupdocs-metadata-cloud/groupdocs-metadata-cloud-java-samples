@@ -15,7 +15,7 @@ import examples.Common;
 /**
  * This example demonstrates how to remove metadata by match property name exact word (ignorecase).
  */
-public class RemoveMetadataByPropertyNameMatchWholeWord {
+public class RemoveMetadataByPropertyNameMatchExactPhrase {
 
 	public static void main(String[] args) {
 
@@ -27,7 +27,7 @@ public class RemoveMetadataByPropertyNameMatchWholeWord {
 			NameOptions nameOptions = new NameOptions();
 			nameOptions.setValue("NameOfApplication");
 			MatchOptions matchOptions = new MatchOptions();
-			matchOptions.setWholeWord(true);
+			matchOptions.setExactPhrase(true);
 			nameOptions.setMatchOptions(matchOptions);
 			searchCriteria.setNameOptions(nameOptions);
 			options.setSearchCriteria(searchCriteria);

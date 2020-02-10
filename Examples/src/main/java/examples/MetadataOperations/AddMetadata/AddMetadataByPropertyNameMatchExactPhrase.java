@@ -21,7 +21,7 @@ import examples.Common;
 /**
  * This example demonstrates how to add metadata by match property name exact word (ignorecase).
  */
-public class AddMetadataByPropertyNameMatchWholeWord {
+public class AddMetadataByPropertyNameMatchExactPhrase {
 
 	public static void main(String[] args) {
 
@@ -35,7 +35,7 @@ public class AddMetadataByPropertyNameMatchWholeWord {
 			NameOptions nameOptions = new NameOptions();
 			nameOptions.setValue("Lastprinted");
 			MatchOptions matchOptions = new MatchOptions();
-			matchOptions.setWholeWord(true);
+			matchOptions.setExactPhrase(true);
 			nameOptions.setMatchOptions(matchOptions);
 			searchCriteria.setNameOptions(nameOptions);
 			property.setSearchCriteria(searchCriteria);
