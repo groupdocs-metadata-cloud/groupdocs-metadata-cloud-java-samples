@@ -14,10 +14,4 @@ Directory | Description
 --------- | -----------
 [Examples](Examples)  | A collection of Java Cloud SDK examples that help you learn the product features
 
-## Resources
-
-+ **Website:** [www.groupdocs.cloud](http://www.groupdocs.cloud)
-+ **Product Home:** [GroupDocs.Metadata Cloud SDK for Java](https://products.groupdocs.cloud/metadata/java)
-+ **Documentation:** [GroupDocs.Metadata Cloud SDK Documentation](https://docs.groupdocs.cloud/display/watermarkcloud/Home)
-+ **Free Support:** [GroupDocs.Metadata Cloud SDK Free Support Forum](https://forum.groupdocs.cloud/c/metadata)
-+ **Blog:** [GroupDocs.Metadata Cloud SDK Blog](https://blog.groupdocs.cloud/category/metadata)
+[Home](https://www.groupdocs.cloud/) | [Product Page](https://products.groupdocs.cloud/metadata/java) | [Docs](https://docs.groupdocs.cloud/metadata/) | [Demos](https://products.groupdocs.app/metadata/family) | [API Reference](https://apireference.groupdocs.cloud/metadata/) | [Source Code](https://github.com/groupdocs-metadata-cloud/groupdocs-metadata-cloud-java) | [Blog](https://blog.groupdocs.cloud/category/metadata/) | [Free Support](https://forum.groupdocs.cloud/c/metadata) | [Free Trial](https://purchase.groupdocs.cloud/trial)
