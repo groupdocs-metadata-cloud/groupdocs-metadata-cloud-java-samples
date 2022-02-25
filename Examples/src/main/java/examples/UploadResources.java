@@ -13,7 +13,7 @@ import examples.Common;
 public class UploadResources {
 	public static FileApi fileApi = new FileApi(Common.GetConfiguration());
 
-	public static String resourcesPath = Paths.get("src\\main\\resources").toAbsolutePath().toString();
+	public static String resourcesPath = Paths.get("Examples\\src\\main\\resources").toAbsolutePath().toString();
 
 	public static void main(String[] args) {
 		try {

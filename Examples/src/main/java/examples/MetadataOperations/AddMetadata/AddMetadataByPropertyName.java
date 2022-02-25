@@ -42,7 +42,7 @@ public class AddMetadataByPropertyName {
 			properties.add(property);
 			options.setProperties(properties);
 			FileInfo fileInfo = new FileInfo();
-			fileInfo.setFilePath("documents/input.docx");
+			fileInfo.setFilePath("documents/input.doc");
 			options.setFileInfo(fileInfo);
 			AddRequest request = new AddRequest(options);
 

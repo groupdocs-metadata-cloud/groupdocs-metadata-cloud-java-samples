@@ -42,7 +42,7 @@ public class AddMetadataByPossibleTagName {
 			properties.add(property);
 			options.setProperties(properties);
 			FileInfo fileInfo = new FileInfo();
-			fileInfo.setFilePath("documents/input.docx");
+			fileInfo.setFilePath("documents/input.xlsx");
 			options.setFileInfo(fileInfo);
 			AddRequest request = new AddRequest(options);
 
