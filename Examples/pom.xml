@@ -14,7 +14,7 @@
 	<dependency>
     	<groupId>com.groupdocs</groupId>
     	<artifactId>groupdocs-metadata-cloud</artifactId>
-    	<version>22.12</version>
+    	<version>23.8</version>
 	</dependency>
   </dependencies>
 	<properties>
