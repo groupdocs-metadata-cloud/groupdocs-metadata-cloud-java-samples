@@ -7,18 +7,14 @@
     <repository>
 	    <id>groupdocs-artifact-repository</id>
 	    <name>GroupDocs Artifact Repository</name>
-	    <url>https://releases.groupdocs.cloud/java/repo/</url>
+	    <url>https://repository.groupdocs.cloud/repo</url>
 	</repository>
 </repositories>
  <dependencies>  	
 	<dependency>
     	<groupId>com.groupdocs</groupId>
     	<artifactId>groupdocs-metadata-cloud</artifactId>
-    	<version>23.8</version>
+    	<version>26.1</version>
 	</dependency>
   </dependencies>
-	<properties>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
-	</properties>
 </project>
